@@ -1,0 +1,173 @@
+.caixas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  background-image: url("ub.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #333;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #333;
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.caixas {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caixa1,
+.caixa2,
+.caixa3 {
+  width: 25%;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.caixa1 {
+  background-color: #d7ffd7;
+}
+
+.caixa2 {
+  background-color: #d7d7ff;
+}
+
+.caixa3 {
+  background-color: #d7ffd7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* adiciona bordas arredondadas */
+  margin-top: 0.5rem;
+  text-transform: uppercase; /* converte todo o texto em letras maiúsculas */
+  font-weight: bold; /* deixa o texto em negrito */
+}
+
+
+input[type="text"], input[type="email"], textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* adiciona bordas arredondadas */
+  margin-top: 0.5rem;
+  text-transform: uppercase; /* converte todo o texto em letras maiúsculas */
+  font-weight: bold; /* deixa o texto em negrito */
+}
+
+input:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, textarea:valid {
+  border-color: green;
+}
+
+input:invalid + span, textarea:invalid + span {
+  color: red;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+input:valid + span, textarea:valid + span {
+  display: none;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

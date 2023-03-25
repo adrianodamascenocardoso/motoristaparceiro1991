@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="caixas">
+    <div class="caixa1">
+      <div class="logo"></div>
+      <h1>Rafael</h1>
+      <p>@motoristaparceiro1991</p>
+    </div>
+    <div class="caixa2">
+      <ul>
+        <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+        <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+      </ul>
+    </div>
+    <div class="caixa3">
+      <form action="insert.php" method="post">
+        <h1>Escolha sua melhor musica</h1>
+        <label for="nome">Nome/Apelido:</label>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="musica">Musica e Cantor:</label>
+        <input type="text" id="musica" name="musica"><br>
+
+        <label for="opcao">Seu estilo de musica é:</label>
+        <select id="opcao" name="opcao">
+          <option value="Agitada">Agitada</option>
+          <option value="Calma">Calma</option>
+        </select>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
